@@ -20,5 +20,6 @@ public class UploadFileTesting extends BaseSetup{
         homePage = signInPage.clickButtonSignIn();
         homePage.clickFotoProfile();
         profiilePage = homePage.clickButtonProfile();
+        publicProfilePage = profiilePage.clickFotoPofile();
     }
 }
